@@ -1,0 +1,100 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "System.Data.SQLite/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/System.Data.SQLite.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/System.Data.SQLite.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "System.Data.SQLite/2.0.1": {
+      "sha512": "x1WBY7ADvWQD7vvupe+S4b7MTj3YyMRl4iysDvgclt+i1AZDdplox0sWslplvzK+eapmegQYuKV8lQhf4o8b5Q==",
+      "type": "package",
+      "path": "system.data.sqlite/2.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net471/System.Data.SQLite.dll",
+        "lib/netstandard2.0/System.Data.SQLite.dll",
+        "lib/netstandard2.1/System.Data.SQLite.dll",
+        "system.data.sqlite.2.0.1.nupkg.sha512",
+        "system.data.sqlite.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "System.Data.SQLite >= 2.0.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\jiushi\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\jiushi\\source\\repos\\ChromeDecrypt2\\ChromeDecrypt2\\ChromeDecrypt2.csproj",
+      "projectName": "ChromeDecrypt2",
+      "projectPath": "C:\\Users\\jiushi\\source\\repos\\ChromeDecrypt2\\ChromeDecrypt2\\ChromeDecrypt2.csproj",
+      "packagesPath": "C:\\Users\\jiushi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jiushi\\source\\repos\\ChromeDecrypt2\\ChromeDecrypt2\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\jiushi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "System.Data.SQLite": {
+            "target": "Package",
+            "version": "[2.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

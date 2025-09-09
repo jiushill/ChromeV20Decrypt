@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jl88DNLNAbbGB2dmcJNgLmyl2UcmkyrhLgrREjdAH1dtQ6DBMv8QnN4S803SxYWtCXJ3MW3UfvmD3ha8y7RsQw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jiushi\\source\\repos\\ChromeDecrypt2\\ChromeDecrypt2\\ChromeDecrypt2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jiushi\\.nuget\\packages\\system.data.sqlite\\2.0.1\\system.data.sqlite.2.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
