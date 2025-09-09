@@ -5,6 +5,7 @@ GPT翻译自:https://github.com/runassu/chrome_v20_decryption/blob/main/decrypt_
 纯Demo，实战还是用不了
 
 ## 环境需求: ##
-- .NET Core 5.0
+- .NET Core 5.0 (.NET Core 5.0才开始支持AES GCM加密)
 - System.Data.SQLite依赖
 
+![](ChromeDecrypt2/Image.png)
